@@ -17,7 +17,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
         document.documentElement.scrollTop = 0;
     });
 
-  console.log(document.getElementsByClassName("btn"));
+  console.log(document.getElementsByClassName("spinner"));
+
+});
+
+console.log(document.getElementsByClassName("btn"));
 
   let buttons = document.getElementsByClassName("btn");
   let len =  buttons.length;
@@ -25,5 +29,3 @@ window.addEventListener('DOMContentLoaded', (event) => {
   for(var i=0 ; i<len; i++){
      buttons[i].style.backgroundColor="blue";
   }
-
-});
